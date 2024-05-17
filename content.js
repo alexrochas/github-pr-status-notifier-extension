@@ -5,7 +5,6 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 });
 
 function checkPRStatus() {
-    console.log('Checking PR status...')
     // Wait for the PR status to be available in the DOM
     const interval = setInterval(() => {
         const approvedDiv = document.querySelector('div.completeness-indicator-success');
@@ -24,12 +23,10 @@ function checkPRStatus() {
 function changeTabIcon(status) {
     const link = document.createElement('link');
     const oldLink = document.querySelector('link[rel="alternate icon"]');
-    console.log('Old link: ' + oldLink.outerHTML);
 
     link.rel = 'alternate icon';
     link.type = 'image/png';
     link.class = 'class="js-site-favicon"';
-    console.log('Changing tab icon to ' + status)
 
     if (status === 'approved') {
         link.href = chrome.runtime.getURL('images/approved_icon.png');

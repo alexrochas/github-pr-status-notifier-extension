@@ -2,7 +2,7 @@
 
 This Chrome extension changes the favicon of a GitHub pull request page to indicate the status of the pull request. The icon changes when the pull request is approved or merged.
 
-![images/demo.png](images/demo.png)
+![](images/demo.png)
 > A screenshot of the GitHub PR Status Notifier Extension in action.
 
 
@@ -12,6 +12,8 @@ This Chrome extension changes the favicon of a GitHub pull request page to indic
 - Detects when a pull request is merged and changes the favicon to indicate merging.
 
 ## Installation
+
+![](images/setup_demo.png)
 
 1. Clone the repository or download the ZIP file.
 2. Open Chrome and go to `chrome://extensions/`.
