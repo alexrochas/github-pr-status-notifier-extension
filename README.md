@@ -49,7 +49,3 @@ Feel free to fork the repository and submit pull requests with enhancements or b
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-This README provides a comprehensive overview of the project, including installation instructions, usage, and development details. It should be helpful for anyone looking to understand or contribute to the project.
